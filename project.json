@@ -1,0 +1,29 @@
+{
+    "langrev": "1",
+    "warnings": [
+        "no-unused"
+    ],
+    "dependency-search-paths": [
+        "lib"
+    ],
+    "dependencies": [],
+    "authors": [
+        "thecalculus
+    ],
+    "version": "0.1.0",
+    "sources": [
+        "src/**"
+    ],
+    // "c-sources": [ "csource/**" ],
+    "output": "../build",
+    "targets": {
+        "urneal": {
+            // Executable or library.
+            "type": "executable",
+            // Additional libraries, sources
+            // and overrides of global settings here.
+        },
+    },
+    "cpu": "generic",
+    "opt": "O0",
+}
